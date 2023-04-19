@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{4}{}%
 \contentsline {section}{\numberline {2}Working principles}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Standing Waves}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Travelling Waves}{4}{}%
-\contentsline {section}{\numberline {3}Applications}{4}{}%
-\contentsline {section}{\numberline {4}Future challenges and limitations}{4}{}%
-\contentsline {section}{\numberline {5}Conclusion}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Standing Waves}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Travelling Waves}{5}{}%
+\contentsline {section}{\numberline {3}Applications}{5}{}%
+\contentsline {section}{\numberline {4}Future challenges and limitations}{5}{}%
+\contentsline {section}{\numberline {5}Conclusion}{5}{}%

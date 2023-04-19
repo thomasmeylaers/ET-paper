@@ -127,6 +127,7 @@ INPUT paper.toc
 INPUT paper.toc
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT paper.toc
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT paper.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -135,3 +136,4 @@ INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
