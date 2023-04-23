@@ -49,7 +49,7 @@ This process can be reversed where a temperature gradient along the solid is pro
 
 The solid used in TAHP should have good thermal contact when the parcel is stationary but poor thermal contact when the parcel is moving. The solid should not conduct heat from one end to the other and thus have a low conductivity. The quest of finding this material is a large part of making TAHP commercially viable, but plastic is often sufficient for experimental applications.
 
-TAHP use a stack of plates of the solid previously discussed called the \emph{stack}. These plates are mounted parallel to each other. Detailed analysis shows that the optimal distance between these plates is about four times the \emph{thermal penetration depth} \(\delta_k = \sqrt{\kappa/\pi f \rho c_p}\). % DISCUSS THIS FURTHER
+TAHP use a stack of plates of the solid previously discussed called the \emph{stack}. These plates are mounted parallel to each other. Detailed analysis shows that the optimal distance between these plates is about four times the \emph{thermal penetration depth} \(\delta_\kappa = \sqrt{\kappa/\pi f \rho c_p}\). % DISCUSS THIS FURTHER
 
 The most rudimentary form of a TAHP consists of a resonator, gas, stack, acoustic transducer, and hot and cold heat exchangers. The acoustic transducer applies acoustic power \(W\) to the gas in the resonator such that a standing wave of the first harmonic is formed in the resonator. A stack is located at about a fourth of the resonator length from the transducer. A hot heat exchanger is mounted on the left at the side of the stack which is closest to the node where temperature and pressure will be at their maximum. A cold heat exchanger is then mounted on the right side closest to the anti-node.
 
@@ -57,8 +57,20 @@ The gasses used in TAHP are typically noble gasses such as helium, neon, argon, 
 
 The bucket brigade of gas parcels pumps heat from the cold end of the stack to the hot end and creates a temperature gradient. In the case of a \emph{thermoacoustic refrigerator}, the cold exchanger is connected to a room to be cooled at \(T_c\), and the hot exchanger is connected to a heat sink at \(T_h\). This is reversed when the desired effect is the heating of a room. This technology is, however, the most promising in the former case.
 
-The efficiency for heat pumps, known as the \emph{coefficient of performance (COP)}, is limited by the second law of thermodynamics and is defined by the Carnot efficiency \(T_c/(T_h-T_c)\)
-The efficiency of this rudimentary device is, sadly, disappointing.
+\subsubsection{Efficiency and losses}
+The efficiency for heat pumps, known as the \emph{coefficient of performance (COP)}, is limited by the second law of thermodynamics and is defined by the Carnot efficiency \(T_c/(T_h-T_c)\). The losses preventing this device from reaching Carnot efficiency are as follows:
+\begin{description}
+  \item[Inherent losses] Inherent losses are due to the irreversibility of the heat transfer between the stack and a gas parcel. Because the heat transfer happens across a non-zero temperature difference \(\delta T\), the entropy of the universe increases. % ADD FORMULA
+  \item[Viscous losses] Viscous losses occur because the gas must overcome viscous shear forces in the stack. The \emph{viscous penetration depth} \(\delta_\mu=\sqrt{\mu / \pi f \rho} \) is comparable to the \emph{thermal penetration depth} \(\delta_\kappa\). Because the plates are spaced about four times this depth apart, the gasses undergo a significant amount of viscous shear.
+  \item[Conduction losses] This loss occurs by the simple conduction of the hot end of the stack to the cold end of the stack.
+  \item[Auxiliary losses] The losses discussed also happen in other parts of the device. Viscous and inherent losses also occur in other parts of the resonator, not necessarily in the stack, which also contributes to the losses. Conduction losses also occur through the casing of the resonator.
+  \item[Transduction Losses] The acoustic transducer generating power for the system is also imperfect. In the case of an electrical system, i.e. a loudspeaker, the main losses will be Joule heating in the copper wires of the loudspeaker.
+\end{description}
+
+These losses combined cause simple standing-wave TAHP to be inefficient. A stereo configuration developed by Garrett\cite{powerofsound} and his colleagues for the US Navy to cool radar electronics only achieved 17\% of the Carnot efficiency. The refrigerator itself, however, achieved 26\% of the maximum which is only half of what conventional cooling systems of similar shape can achieve. % FIGURE
+
+\subsection{Travelling Waves}
+
 
 
 % LOSSES
@@ -73,7 +85,6 @@ The efficiency of this rudimentary device is, sadly, disappointing.
 % - reasonable efficiency and extreme
 % tube & speaker -> resonance
 % Helium (good heat transfer properties)
-\subsection{Travelling Waves}
 
 \section{Applications}
 
