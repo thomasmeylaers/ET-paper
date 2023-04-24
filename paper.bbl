@@ -15,4 +15,24 @@ M.E.H. Tijani.
 \newblock Loudspeaker-driven thermo-acoustic refrigeration.
 \newblock 01 2001.
 
+\bibitem{spoelstraHighTemperature}
+M~Tijani, S.~Spoelstra, M.E.H. Tijani, and Simon Spoelstra.
+\newblock High temperature thermoacoustic heat pump high temperature thermoacoustic heat pump.
+\newblock 04 2023.
+
+\bibitem{BackHauseDetailedStudy}
+S.~Backhaus and G.~W. Swift.
+\newblock {A thermoacoustic-Stirling heat engine: Detailed study}.
+\newblock {\em The Journal of the Acoustical Society of America}, 107(6):3148--3166, 06 2000.
+
+\bibitem{weiTravellingwave}
+Wei Dai, Ercang Luo, Yong Zhang, and Hong Ling.
+\newblock {Detailed study of a traveling wave thermoacoustic refrigerator driven by a traveling wave thermoacoustic engine}.
+\newblock {\em The Journal of the Acoustical Society of America}, 119(5):2686--2692, 05 2006.
+
+\bibitem{ceperleyStirling}
+Peter~H. Ceperley.
+\newblock {A pistonless Stirling engine—The traveling wave heat engine}.
+\newblock {\em The Journal of the Acoustical Society of America}, 66(5):1508--1513, 11 1979.
+
 \end{thebibliography}

@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+\usepackage{enumerate}% http://ctan.org/pkg/enumerate
 \usepackage[superscript,biblabel]{cite}
 
 \title{Thermoacoustic heat pumps}
@@ -45,7 +46,7 @@ These temperature variations are relatively small. For sounds at 120 \(dB\), the
 
 To handle larger temperature ranges TAHP put the gas in contact with a solid. A solid has a much higher heat capacity per unit volume than gas and can absorb a considerable amount more heat without changing temperature very much. The solid absorbs heat when a gas parcel compresses and moves to the left. The solid will release heat to a gas parcel when it drops in temperature due to expansion and moves to the right. A temperature gradient is created along the solid. The temperature gradient due to this gas parcel is very small, but when multiple of these gas parcels are all undergoing this process, they work as a sort of bucket brigade bringing heat from one side to the other. % FIGURE
 This cycle for a gas parcel plotted in a \(p-V\) diagram shows that there is work absorbed by the gas and is typical for a heat pump.  % FIGURE
-This process can be reversed where a temperature gradient along the solid is provided by an outside source which is then converted into acoustic power. Such a device is called a \emph{thermoacoustic heat engine} or \emph{primer mover}.
+This process can be reversed where a temperature gradient along the solid is provided by an outside source which is then converted into acoustic power. Such a device is called a \emph{thermoacoustic heat engine (TAHE)} or \emph{primer mover}.
 
 The solid used in TAHP should have good thermal contact when the parcel is stationary but poor thermal contact when the parcel is moving. The solid should not conduct heat from one end to the other and thus have a low conductivity. The quest of finding this material is a large part of making TAHP commercially viable, but plastic is often sufficient for experimental applications.
 
@@ -60,7 +61,7 @@ The bucket brigade of gas parcels pumps heat from the cold end of the stack to t
 \subsubsection{Efficiency and losses}
 The efficiency for heat pumps, known as the \emph{coefficient of performance (COP)}, is limited by the second law of thermodynamics and is defined by the Carnot efficiency \(T_c/(T_h-T_c)\). The losses preventing this device from reaching Carnot efficiency are as follows:
 \begin{description}
-  \item[Inherent losses] Inherent losses are due to the irreversibility of the heat transfer between the stack and a gas parcel. Because the heat transfer happens across a non-zero temperature difference \(\delta T\), the entropy of the universe increases. % ADD FORMULA
+  \item[Inherent losses] Inherent losses are due to the irreversibility of the heat transfer between the stack and a gas parcel. Because the heat transfer happens across a non-zero temperature difference \(\delta T\), the entropy of the universe increases. This irreversibility is inherent to this device because of the imperfect thermal contact. % ADD FORMULA
   \item[Viscous losses] Viscous losses occur because the gas must overcome viscous shear forces in the stack. The \emph{viscous penetration depth} \(\delta_\mu=\sqrt{\mu / \pi f \rho} \) is comparable to the \emph{thermal penetration depth} \(\delta_\kappa\). Because the plates are spaced about four times this depth apart, the gasses undergo a significant amount of viscous shear.
   \item[Conduction losses] This loss occurs by the simple conduction of the hot end of the stack to the cold end of the stack.
   \item[Auxiliary losses] The losses discussed also happen in other parts of the device. Viscous and inherent losses also occur in other parts of the resonator, not necessarily in the stack, which also contributes to the losses. Conduction losses also occur through the casing of the resonator.
@@ -69,23 +70,32 @@ The efficiency for heat pumps, known as the \emph{coefficient of performance (CO
 
 These losses combined cause simple standing-wave TAHP to be inefficient. A stereo configuration developed by Garrett\cite{powerofsound} and his colleagues for the US Navy to cool radar electronics only achieved 17\% of the Carnot efficiency. The refrigerator itself, however, achieved 26\% of the maximum which is only half of what conventional cooling systems of similar shape can achieve. % FIGURE
 
-\subsection{Travelling Waves}
+Standing wave TAHP should, however, not be immediately discarded. The efficiency of these devices can still be improved. Furthermore, almost no moving parts are required. In the case where a loudspeaker is used only a simple seal like a metal bellow would suffice and there would be no need for lubrication. There is also the possibility of coupling the TAHP with a thermoacoustic heat engine which means that there would be no moving parts at all. In this configuration, waste heat from e.g. an industrial installation would power a thermoacoustic heat engine producing acoustic power which would then be fed to a TAHP to cool down or heat a space for example.
 
+The efficiency of standing wave systems is imposed by the way that heat is transferred from the stack to the gas which is similar to the Brayton cycle. Researchers have found a way to use a different thermodynamic cycle, the Stirling cycle, to improve the efficiency of thermoacoustic devices.\cite{ceperleyStirling}
 
+% Should add more information like figures, graphs, and variations
 
-% LOSSES
-% EFFICIENCY
-% VARIATIONS
+\subsection{Traveling Waves\cite{spoelstraHighTemperature,BackHauseDetailedStudy,powerofsound,weiTravellingwave}}
+In contrast to the inherently irreversible thermodynamic cycle which standing wave TAHP use, the reversed Stirling cycle is inherently reversible. By finding a TAHP which uses this reverse Stirling cycle it is possible to surpass the efficiency of standing wave TAHP.\@
 
+\subsubsection{Stirling cycle}
+The Stirling cycle for a Stirling engine with a regenerator consists of four different steps:
+\begin{enumerate}[i]
+  \item 1→2 Isothermal heat addition (expansion)
+  \item 2→3 Isochoric heat removal (constant volume)
+  \item 3→4 Isothermal heat removal (compression)
+  \item 4→1 Isochoric heat addition (constant volume)
+\end{enumerate}
+This cycle in a \(p-V\) diagram is shown in Figure X. The connection between traveling acoustic waves and a Stirling engine becomes clear when the temperature gas and velocity are plotted alongside each other for the acoustic wave and the gas in the regenerator of the Stirling engine. The changes in pressure and velocity of the gas in the regenerator resemble those of a traveling acoustic wave.
 
+Ceperley\cite{ceperleyStirling} showed that a TAHE could be created by creating a temperature gradient across a regenerator and sending a traveling wave through it. Ceperley was not successful in building a device that could do this efficiently, but through years of research and experimentation by his peers, TAHE using traveling waves became the most efficient and promising form of TAHE.\@ As with standing wave TAHE, when the cycle is reversed a TAHP is created.
 
-
-
-% - COP
-% - reasonable efficiency and extreme
-% tube & speaker -> resonance
-% Helium (good heat transfer properties)
-
+\subsubsection{Traveling wave TAHP}
+One of the main differences between a traveling wave and a standing wave TAHP is the regenerator. The regenerator is a porous solid with a high heat capacity. These pores are smaller than the thermal penetration depth and thus much smaller than the gaps in a stack.
+% What is the difference between a stack and a regenerator
+% How is this TAHP built?
+% Why is it built this way?
 \section{Applications}
 
 \section{Future challenges and limitations}

@@ -4,45 +4,46 @@ The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
 Database file #1: uni.bib
 Warning--empty journal in tijaniLoudSpeaker
-You've used 3 entries,
+Warning--empty journal in spoelstraHighTemperature
+You've used 7 entries,
             1791 wiz_defined-function locations,
-            467 strings with 3813 characters,
-and the built_in function-call counts, 499 in all, are:
-= -- 41
-> -- 16
+            498 strings with 4557 characters,
+and the built_in function-call counts, 1431 in all, are:
+= -- 120
+> -- 56
 < -- 0
-+ -- 7
-- -- 4
-* -- 31
-:= -- 91
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 3
++ -- 22
+- -- 15
+* -- 112
+:= -- 240
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 25
-empty$ -- 51
-format.name$ -- 4
-if$ -- 105
+cite$ -- 9
+duplicate$ -- 60
+empty$ -- 143
+format.name$ -- 15
+if$ -- 308
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 7
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 11
+skip$ -- 24
 stack$ -- 0
-substring$ -- 15
-swap$ -- 2
+substring$ -- 96
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 4
-width$ -- 4
-write$ -- 33
-(There was 1 warning)
+warning$ -- 2
+while$ -- 11
+width$ -- 8
+write$ -- 75
+(There were 2 warnings)
