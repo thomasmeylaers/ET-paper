@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{powerofsound}
 Steven Garrett and Scott Backhaus.
@@ -30,9 +30,24 @@ Wei Dai, Ercang Luo, Yong Zhang, and Hong Ling.
 \newblock {Detailed study of a traveling wave thermoacoustic refrigerator driven by a traveling wave thermoacoustic engine}.
 \newblock {\em The Journal of the Acoustical Society of America}, 119(5):2686--2692, 05 2006.
 
+\bibitem{TARTIBU2019102}
+L.K. Tartibu.
+\newblock Developing more efficient travelling-wave thermo-acoustic refrigerators: A review.
+\newblock {\em Sustainable Energy Technologies and Assessments}, 31:102--114, 2019.
+
 \bibitem{ceperleyStirling}
 Peter~H. Ceperley.
 \newblock {A pistonless Stirling engine—The traveling wave heat engine}.
 \newblock {\em The Journal of the Acoustical Society of America}, 66(5):1508--1513, 11 1979.
+
+\bibitem{Herman2006}
+C.~Herman and Z.~Travnicek.
+\newblock Cool sound: the future of refrigeration? thermodynamic and heat transfer issues in thermoacoustic refrigeration.
+\newblock {\em Heat and Mass Transfer}, 42(6):492--500, Apr 2006.
+
+\bibitem{tijaniOptimalStack}
+M.E.H. Tijani, J~Zeegers, and Alphons De~Waele.
+\newblock The optimal stack spacing for thermoacoustic refrigeration.
+\newblock {\em The Journal of the Acoustical Society of America}, 112:128--33, 08 2002.
 
 \end{thebibliography}

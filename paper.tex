@@ -41,21 +41,21 @@ This paper will first discuss the physics behind these systems in section X. Sec
 \section{Working principles}
 \subsection{Standing Waves\cite{powerofsound,enginesandrefrigerators,tijaniLoudSpeaker}}
 In a standing wave, gas parcels alternatively compress and expand. This process happens adiabatically. These compressions and expansions change the temperature and pressure of these gas parcels. When the pressure reaches maximum so does the temperature and vice versa.
-
+\newpara{}
 These temperature variations are relatively small. For sounds at 120 \(dB\), the temperature oscillates up and down by only about 0.02 degrees Celcius. Most air conditioners and refrigerators need to pump heat over a range of 20 degrees or more. So the temperature changes within the gas are too small to be useful.
-
+\newpara{}
 To handle larger temperature ranges TAHP put the gas in contact with a solid. A solid has a much higher heat capacity per unit volume than gas and can absorb a considerable amount more heat without changing temperature very much. The solid absorbs heat when a gas parcel compresses and moves to the left. The solid will release heat to a gas parcel when it drops in temperature due to expansion and moves to the right. A temperature gradient is created along the solid. The temperature gradient due to this gas parcel is very small, but when multiple of these gas parcels are all undergoing this process, they work as a sort of bucket brigade bringing heat from one side to the other. % FIGURE
 This cycle for a gas parcel plotted in a \(p-V\) diagram shows that there is work absorbed by the gas and is typical for a heat pump.  % FIGURE
 This process can be reversed where a temperature gradient along the solid is provided by an outside source which is then converted into acoustic power. Such a device is called a \emph{thermoacoustic heat engine (TAHE)} or \emph{primer mover}.
-
+\newpara{}
 The solid used in TAHP should have good thermal contact when the parcel is stationary but poor thermal contact when the parcel is moving. The solid should not conduct heat from one end to the other and thus have a low conductivity. The quest of finding this material is a large part of making TAHP commercially viable, but plastic is often sufficient for experimental applications.
-
+\newpara{}
 TAHP use a stack of plates of the solid previously discussed called the \emph{stack}. These plates are mounted parallel to each other. Detailed analysis shows that the optimal distance between these plates is about four times the \emph{thermal penetration depth} \(\delta_\kappa = \sqrt{\kappa/\pi f \rho c_p}\). % DISCUSS THIS FURTHER
-
+\newpara{}
 The most rudimentary form of a TAHP consists of a resonator, gas, stack, acoustic transducer, and hot and cold heat exchangers. The acoustic transducer applies acoustic power \(W\) to the gas in the resonator such that a standing wave of the first harmonic is formed in the resonator. A stack is located at about a fourth of the resonator length from the transducer. A hot heat exchanger is mounted on the left at the side of the stack which is closest to the node where temperature and pressure will be at their maximum. A cold heat exchanger is then mounted on the right side closest to the anti-node.
-
+\newpara{}
 The gasses used in TAHP are typically noble gasses such as helium, neon, argon, or a mixture of these gases. These gasses are used because they have low molecular weights and are highly compressible, which makes them ideal for use in thermoacoustic refrigerators. Additionally, they have low thermal conductivity, which helps to minimize heat transfer between the hot and cold sides of the device.
-
+\newpara{}
 The bucket brigade of gas parcels pumps heat from the cold end of the stack to the hot end and creates a temperature gradient. In the case of a \emph{thermoacoustic refrigerator}, the cold exchanger is connected to a room to be cooled at \(T_c\), and the hot exchanger is connected to a heat sink at \(T_h\). This is reversed when the desired effect is the heating of a room. This technology is, however, the most promising in the former case.
 
 \subsubsection{Efficiency and losses}
@@ -69,9 +69,9 @@ The efficiency for heat pumps, known as the \emph{coefficient of performance (CO
 \end{description}
 
 These losses combined cause simple standing-wave TAHP to be inefficient. A stereo configuration developed by Garrett\cite{powerofsound} and his colleagues for the US Navy to cool radar electronics only achieved 17\% of the Carnot efficiency. The refrigerator itself, however, achieved 26\% of the maximum which is only half of what conventional cooling systems of similar shape can achieve. % FIGURE
-
+\newpara{}
 Standing wave TAHP should, however, not be immediately discarded. The efficiency of these devices can still be improved. Furthermore, almost no moving parts are required. In the case where a loudspeaker is used only a simple seal like a metal bellow would suffice and there would be no need for lubrication. There is also the possibility of coupling the TAHP with a thermoacoustic heat engine which means that there would be no moving parts at all. In this configuration, waste heat from e.g. an industrial installation would power a thermoacoustic heat engine producing acoustic power which would then be fed to a TAHP to cool down or heat a space for example.
-
+\newpara{}
 The efficiency of standing wave systems is imposed by the way that heat is transferred from the stack to the gas which is similar to the Brayton cycle. Researchers have found a way to use a different thermodynamic cycle, the Stirling cycle, to improve the efficiency of thermoacoustic devices.\cite{ceperleyStirling}
 
 % Should add more information like figures, graphs, and variations
@@ -88,14 +88,22 @@ The Stirling cycle for a Stirling engine with a regenerator consists of four dif
   \item 4→1 Isochoric heat addition (constant volume)
 \end{enumerate}
 This cycle in a \(p-V\) diagram is shown in Figure X. The connection between traveling acoustic waves and a Stirling engine becomes clear when the temperature gas and velocity are plotted alongside each other for the acoustic wave and the gas in the regenerator of the Stirling engine. The changes in pressure and velocity of the gas in the regenerator resemble those of a traveling acoustic wave.
-
+\newpara{}
 Ceperley\cite{ceperleyStirling} showed that a TAHE could be created by creating a temperature gradient across a regenerator and sending a traveling wave through it. Ceperley was not successful in building a device that could do this efficiently, but through years of research and experimentation by his peers, TAHE using traveling waves became the most efficient and promising form of TAHE.\@ As with standing wave TAHE, when the cycle is reversed a TAHP is created.
 
-\subsubsection{Traveling wave TAHP}
-One of the main differences between a traveling wave and a standing wave TAHP is the regenerator. The regenerator is a porous solid with a high heat capacity. These pores are smaller than the thermal penetration depth and thus much smaller than the gaps in a stack.
+\subsubsection{Traveling wave TAHP\cite{TARTIBU2019102}}
+One of the main differences between a traveling wave and a standing wave TAHP is the regenerator. The regenerator is a porous solid with a high heat capacity. These pores are smaller than the thermal penetration depth and thus much smaller than the gaps in a stack. These smaller pores, however, ensure better thermal contact and makes it possible for the device to be reversible in theory.
+\newpara{}
+The losses in the regenerator are proportional to the square of the oscillating velocity of the gas. This is analogous to the power dissipated in an electrical resistor which is proportional to the square of the current. Electrical engineers solved this similar problem for transmission lines by lowering the current and increasing the voltage. Garrett and Backhaus\cite{powerofsound} reasoned that the way electrical engineers solved this problem could also apply to the acoustically analogous case. This means that the velocity of the gas should be minimized and the oscillatory pressure should be maximized to increase efficiency. A traveling wave TAHP should thus have a wave that has the oscillatory pressure and velocity in phase whilst also minimizing the oscillatory velocity in the regenerator. Standing waves have a high pressure-to-displacement ratio, a traveling wave TAHP should thus incorporate the best of both worlds to maximize efficiency.
+\newpara{}
+A widely adopted design for traveling wave TAHP combines a standing wave resonator and a torus-like device containing the regenerator (See figure X). The torus is comprised of
 % What is the difference between a stack and a regenerator
 % How is this TAHP built?
 % Why is it built this way?
+
+\subsubsection{Efficiency}
+The COP of traditional vapor compression refrigerators generally ranges between 2 and 6 whilst the COP of a traveling wave TAHP is between 1 and 1.2.\cite{Herman2006,tijaniOptimalStack}
+
 \section{Applications}
 
 \section{Future challenges and limitations}
