@@ -30,7 +30,7 @@
 \newpage
 
 
-\section{Introduction}
+\section{Introduction} % read paper on room temperature applications
 Thermoacoustic heat pumps (TAHP) are a new and upcoming technology. This technology offers an environment-friendly and efficient solution for heating applications.
 \newpara{}
 In contrast to traditional heating and cooling applications which rely on the vapor compression cycles, TAHP uses the energy stored in sound waves to transfer heat between temperature reservoirs. These mechanisms have a relatively simple design compared to their more-traditional counterparts. TAHP also use more environment-friendly working media such as helium and hydrogen.
@@ -73,7 +73,7 @@ These losses combined cause simple standing-wave TAHP to be inefficient. A stere
 Standing wave TAHP should, however, not be immediately discarded. The efficiency of these devices can still be improved. Furthermore, almost no moving parts are required. In the case where a loudspeaker is used only a simple seal like a metal bellow would suffice and there would be no need for lubrication. There is also the possibility of coupling the TAHP with a thermoacoustic heat engine which means that there would be no moving parts at all. In this configuration, waste heat from e.g. an industrial installation would power a thermoacoustic heat engine producing acoustic power which would then be fed to a TAHP to cool down or heat a space for example.
 \newpara{}
 The efficiency of standing wave systems is imposed by the way that heat is transferred from the stack to the gas which is similar to the Brayton cycle. Researchers have found a way to use a different thermodynamic cycle, the Stirling cycle, to improve the efficiency of thermoacoustic devices.\cite{ceperleyStirling}
-
+The COP of traditional vapor compression refrigerators generally ranges between 2 and 6 whilst the COP of a traveling wave TAHP is between 1 and 1.2.\cite{Herman2006,tijaniOptimalStack}
 % Should add more information like figures, graphs, and variations
 
 \subsection{Traveling Waves\cite{spoelstraHighTemperature,BackHauseDetailedStudy,powerofsound,weiTravellingwave}}
@@ -96,19 +96,36 @@ One of the main differences between a traveling wave and a standing wave TAHP is
 \newpara{}
 The losses in the regenerator are proportional to the square of the oscillating velocity of the gas. This is analogous to the power dissipated in an electrical resistor which is proportional to the square of the current. Electrical engineers solved this similar problem for transmission lines by lowering the current and increasing the voltage. Garrett and Backhaus\cite{powerofsound} reasoned that the way electrical engineers solved this problem could also apply to the acoustically analogous case. This means that the velocity of the gas should be minimized and the oscillatory pressure should be maximized to increase efficiency. A traveling wave TAHP should thus have a wave that has the oscillatory pressure and velocity in phase whilst also minimizing the oscillatory velocity in the regenerator. Standing waves have a high pressure-to-displacement ratio, a traveling wave TAHP should thus incorporate the best of both worlds to maximize efficiency.
 \newpara{}
-A widely adopted design for traveling wave TAHP combines a standing wave resonator and a torus-like device containing the regenerator (See figure X). The torus is comprised of
-% What is the difference between a stack and a regenerator
-% How is this TAHP built?
-% Why is it built this way?
+A widely adopted design for traveling wave TAHP combines a standing wave resonator and a torus-like device containing the regenerator (See figure X). The torus is comprised of a hot heat exchanger (HHX), a regenerator (REG), a cold heat exchanger (CHX), a thermal buffer tube (TBT), an ambient heat exchanger (AHX), and a feedback inertance. The standing wave in the resonator moving along the open end of the torus acts like air blowing over the mouth of a bottle. The springiness of the gas in the inertance tube allows a wave of high pressure and low displacement (standing wave property) with the velocity and pressure in phase (traveling wave) to develop. The combination of these properties makes this specific configuration one of the most efficient methods of thermoacoustic refrigeration. The acoustic network formed by these elements forces a traveling wave to travel anti-clockwise in the torus and make the gas perform a reverse Stirling cycle in the regenerator and thus pumping heat away from the CHX.\@ The TBT and AHX are there to prevent heat from leaking.\cite{TijaniAHighPerformanceThermoacousticEngine}.
+\newpara{}
+One major problem with this design is that it does not inhibit Gedeon streaming i.e.\ air circulating from one end of the loop to the other and thus short-circuiting the CHX and HHX.\@ This phenomenon drastically impacts efficiency and should be avoided. A flexible membrane installed just above the HHX would inhibit the flow of gas whilst still transmitting the acoustic power but can be difficult to develop in such a way that it lasts a long time. Another way is to use a jet pump. A jet pump creates a backpressure in the loop to inhibit the streaming by using asymmetric openings that allow flow in one direction.
 
 \subsubsection{Efficiency}
-The COP of traditional vapor compression refrigerators generally ranges between 2 and 6 whilst the COP of a traveling wave TAHP is between 1 and 1.2.\cite{Herman2006,tijaniOptimalStack}
+Various designs have been tested numerically or experimentally since Ceperly first wrote his paper in 1979. The most promising are the looped-based designs as discussed above but efficiencies are still poor and insufficient for commercial viability. There are also different aims of these devices. Some traveling wave TAHP have been designed to liquefy hydrogen where cooling power is important while some designs focus more on room temperature applications where efficiency and power density are important\cite{WangRoomTemperature}.
+\newpara{}
+Tijani et al.\cite{spoelstraHighTemperature} built a traveling wave TAHP by building on the design discussed above. They coupled the TAHP with a TAE using the same principle but with a reversed cycle. This makes this device thermally driven. They managed to get to 40\% of Carnot's performance working between a range of 80 degrees and 10 degrees Celcius and pumping 200 W. This was an encouraging result for further study in this domain.
+\newpara{}
+Luo et al.\ built a refrigerator using the design discussed above\cite{LuoRefrigerator}. They also did this by coupling a traveling wave TAHP with a TAE in the same system but in a different way than the previous example. This device only reached a COP of 0.216 but managed to pump 469 W.
+\newpara{}
+More recently, Wang et al.\ estimated numerically that a refrigerator could be built with a cooling power of 6.35 kW and a COP of 3. This was built on the principle of putting multiple regenerators in series and thus creating a multistage refrigerator. Real-world experimentation is required however to validate these results.
+\newpara{}
+An in-depth study on the efficiency of traveling wave TAHP by Ueda et al. showed that there are three parameters that mainly effect the efficiency of the regenerator: the regenerator's installation position, length, and flow-channel radius\cite{uedaOptimization}. They concluded that by optimizing these three parameters a COP of above 60\% of the Carnot COP could be achieved. Tartibu investigated the effect of different geometries and thus configurations of traveling wave TAHP and tabulated different findings of different researchers\cite{TARTIBU2019102}. His study shows that whilst traveling wave TAHP are not sufficiently efficient yet, they show great promise and have much higher potential than their standing wave counterparts.
 
 \section{Applications}
+This section will discuss real-world applications of TAHP.\@ There are not a lot of real-world applications outside of academia because of the infancy of this technology.
+\subsection{JWT cryocooler\cite{Petach2014MidII,Moore_2017,ross2022conceptual}}
+The James-Webb telescope (JWT) is a space telescope launched by NASA on 25 December 2021. The purpose of JWT was to conduct infrared astrology. Due to redshift, the light coming from very old and distant celestial bodies have a wavelength in the infrared range. The temperature of the mid-infrared camera (MIRI) aboard the JWT has to be as close to 0 kelvin as possible to minimize the infrared radiation of the telescope itself and thus minimize the noise.
+\newpara{}
+The heat shield of the JWT only manages to keep the temperature of the sensor at about 37 kelvin but the sensor has an operating temperature of 6.2 kelvin. NASA chose a thermoacoustic cooler because reliability, high cooling power, and energy density were key. The cryocooler is a standing wave TAHP operating on helium with three stacks. A tube of helium is connected to the cold heat exchangers of the TAHP and is cooled down to about 17 kelvin which is still not enough which is still not sufficient. At the end of the tube, there is a small hole that drops the pressure of the helium. Because of this Joule-Thompson effect, the helium cools down to 6.2 kelvin to finally cool the MIRI.
+\newpara{}
 
+\subsection{Blue Heart}
+\subsection{Frans}
 \section{Future challenges and limitations}
 
 \section{Conclusion}
+While efficiencies are not yet at the same levels as conventional cooling/heating applications, one should keep in mind that TAHP offer other important advantages. For example, they use inert gases which make them environment friendly. They are also very flexible in driver methods. They can be powered thermally and mechanically. They also have nearly no moving parts which make them very suitable for environments where reliability is key.
+\newpage
 \bibliography{uni}
 \bibliographystyle{unsrt}
 \end{document}

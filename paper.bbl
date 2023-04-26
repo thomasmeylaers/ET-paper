@@ -35,6 +35,21 @@ L.K. Tartibu.
 \newblock Developing more efficient travelling-wave thermo-acoustic refrigerators: A review.
 \newblock {\em Sustainable Energy Technologies and Assessments}, 31:102--114, 2019.
 
+\bibitem{Petach2014MidII}
+Michael~B. Petach and Mark Michaelian.
+\newblock Mid infrared instrument ( miri ) cooler cold head assembly acceptance testing and characterization.
+\newblock 2014.
+
+\bibitem{Moore_2017}
+B~Moore, J~Zan, B~Hannah, T~Chui, K~Penanen, and M~Weilert.
+\newblock Mid infrared instrument cooler subsystem test facility overview.
+\newblock {\em IOP Conference Series: Materials Science and Engineering}, 278(1):012006, dec 2017.
+
+\bibitem{ross2022conceptual}
+RG~Ross~Jr.
+\newblock Conceptual design and development history of the miri cryocooler system on jwst.
+\newblock 2022.
+
 \bibitem{ceperleyStirling}
 Peter~H. Ceperley.
 \newblock {A pistonless Stirling engine—The traveling wave heat engine}.
@@ -49,5 +64,28 @@ C.~Herman and Z.~Travnicek.
 M.E.H. Tijani, J~Zeegers, and Alphons De~Waele.
 \newblock The optimal stack spacing for thermoacoustic refrigeration.
 \newblock {\em The Journal of the Acoustical Society of America}, 112:128--33, 08 2002.
+
+\bibitem{TijaniAHighPerformanceThermoacousticEngine}
+M.~E.~H. Tijani and S.~Spoelstra.
+\newblock {A high performance thermoacoustic engine}.
+\newblock {\em Journal of Applied Physics}, 110(9), 11 2011.
+\newblock 093519.
+
+\bibitem{WangRoomTemperature}
+Xin Wang, Zhanghua Wu, Limin Zhang, Jianying Hu, and Ercang Luo.
+\newblock Traveling-wave thermoacoustic refrigerator for room temperature application.
+\newblock {\em International Journal of Refrigeration}, 120:90--96, 2020.
+
+\bibitem{LuoRefrigerator}
+E.C. Luo, W.~Dai, Y.~Zhang, and H.~Ling.
+\newblock Experimental investigation of a thermoacoustic-stirling refrigerator driven by a thermoacoustic-stirling heat engine.
+\newblock {\em Ultrasonics}, 44:e1531--e1533, 2006.
+\newblock Proceedings of Ultrasonics International (UI’05) and World Congress on Ultrasonics (WCU).
+
+\bibitem{uedaOptimization}
+Yuki Ueda, Bassem~Mohamed Mehdi, Kohei Tsuji, and Atsushi Akisawa.
+\newblock {Optimization of the regenerator of a traveling-wave thermoacoustic refrigerator}.
+\newblock {\em Journal of Applied Physics}, 107(3), 02 2010.
+\newblock 034901.
 
 \end{thebibliography}
