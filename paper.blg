@@ -8,45 +8,45 @@ Warning--empty journal in spoelstraHighTemperature
 Warning--empty journal in AdeffSpace
 Warning--empty journal in Petach2014MidII
 Warning--empty journal in ross2022conceptual
-You've used 21 entries,
+You've used 22 entries,
             1791 wiz_defined-function locations,
-            587 strings with 6810 characters,
-and the built_in function-call counts, 3977 in all, are:
-= -- 323
-> -- 178
+            592 strings with 7017 characters,
+and the built_in function-call counts, 4150 in all, are:
+= -- 335
+> -- 192
 < -- 0
-+ -- 69
-- -- 48
-* -- 279
-:= -- 649
-add.period$ -- 60
-call.type$ -- 21
-change.case$ -- 21
++ -- 74
+- -- 52
+* -- 289
+:= -- 682
+add.period$ -- 63
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 169
-empty$ -- 409
-format.name$ -- 48
-if$ -- 871
+cite$ -- 27
+duplicate$ -- 177
+empty$ -- 423
+format.name$ -- 52
+if$ -- 907
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 18
-newline$ -- 105
-num.names$ -- 18
-pop$ -- 53
+int.to.str$ -- 22
+missing$ -- 19
+newline$ -- 110
+num.names$ -- 19
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 85
+skip$ -- 88
 stack$ -- 0
 substring$ -- 222
-swap$ -- 16
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 28
-width$ -- 23
-write$ -- 211
+while$ -- 29
+width$ -- 24
+write$ -- 221
 (There were 5 warnings)
