@@ -7,8 +7,11 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Traveling wave TAHP\cite {TARTIBU2019102}}{7}{}%
 \contentsline {subsubsection}{\numberline {2.2.3}Efficiency}{8}{}%
 \contentsline {section}{\numberline {3}Applications}{9}{}%
-\contentsline {subsection}{\numberline {3.1}JWT cryocooler\cite {Petach2014MidII,Moore_2017,ross2022conceptual}}{9}{}%
-\contentsline {subsection}{\numberline {3.2}Blue Heart}{10}{}%
-\contentsline {subsection}{\numberline {3.3}Frans}{10}{}%
-\contentsline {section}{\numberline {4}Future challenges and limitations}{10}{}%
-\contentsline {section}{\numberline {5}Conclusion}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Space applications}{9}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Space shuttle get-away-special (GAS)\cite {AdeffSpace,powerofsound}}{9}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}JWT cryocooler\cite {Petach2014MidII,Moore_2017,ross2022conceptual}}{10}{}%
+\contentsline {subsection}{\numberline {3.2}Domestic applications}{10}{}%
+\contentsline {subsection}{\numberline {3.3}Blue Heart\cite {blueheart}}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Equium\cite {equium}}{11}{}%
+\contentsline {section}{\numberline {4}Future challenges and limitations}{11}{}%
+\contentsline {section}{\numberline {5}Conclusion}{11}{}%

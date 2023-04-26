@@ -35,6 +35,11 @@ L.K. Tartibu.
 \newblock Developing more efficient travelling-wave thermo-acoustic refrigerators: A review.
 \newblock {\em Sustainable Energy Technologies and Assessments}, 31:102--114, 2019.
 
+\bibitem{AdeffSpace}
+Jay~A. Adeff, Thomas~J. Hofler, and Steven~L. Garrett.
+\newblock A thermoacoustic refrigerator for space applications.
+\newblock 1991.
+
 \bibitem{Petach2014MidII}
 Michael~B. Petach and Mark Michaelian.
 \newblock Mid infrared instrument ( miri ) cooler cold head assembly acceptance testing and characterization.
@@ -49,6 +54,12 @@ B~Moore, J~Zan, B~Hannah, T~Chui, K~Penanen, and M~Weilert.
 RG~Ross~Jr.
 \newblock Conceptual design and development history of the miri cryocooler system on jwst.
 \newblock 2022.
+
+\bibitem{blueheart}
+Blueheart energy.
+
+\bibitem{equium}
+The acoustic heat pump.
 
 \bibitem{ceperleyStirling}
 Peter~H. Ceperley.
@@ -87,5 +98,8 @@ Yuki Ueda, Bassem~Mohamed Mehdi, Kohei Tsuji, and Atsushi Akisawa.
 \newblock {Optimization of the regenerator of a traveling-wave thermoacoustic refrigerator}.
 \newblock {\em Journal of Applied Physics}, 107(3), 02 2010.
 \newblock 034901.
+
+\bibitem{EU}
+Energy consumption in households.
 
 \end{thebibliography}
