@@ -8,45 +8,47 @@ Warning--empty journal in spoelstraHighTemperature
 Warning--empty journal in AdeffSpace
 Warning--empty journal in Petach2014MidII
 Warning--empty journal in ross2022conceptual
-You've used 22 entries,
+Warning--empty publisher in book
+Warning--empty journal in minner1996optimizing
+You've used 26 entries,
             1791 wiz_defined-function locations,
-            592 strings with 7017 characters,
-and the built_in function-call counts, 4150 in all, are:
-= -- 335
-> -- 192
-< -- 0
-+ -- 74
-- -- 52
-* -- 289
-:= -- 682
-add.period$ -- 63
-call.type$ -- 22
-change.case$ -- 22
+            613 strings with 7608 characters,
+and the built_in function-call counts, 4889 in all, are:
+= -- 397
+> -- 226
+< -- 1
++ -- 87
+- -- 61
+* -- 335
+:= -- 804
+add.period$ -- 75
+call.type$ -- 26
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 177
-empty$ -- 423
-format.name$ -- 52
-if$ -- 907
+cite$ -- 33
+duplicate$ -- 212
+empty$ -- 496
+format.name$ -- 61
+if$ -- 1067
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 19
-newline$ -- 110
-num.names$ -- 19
-pop$ -- 56
+int.to.str$ -- 26
+missing$ -- 24
+newline$ -- 130
+num.names$ -- 23
+pop$ -- 70
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 88
+skip$ -- 102
 stack$ -- 0
-substring$ -- 222
-swap$ -- 17
-text.length$ -- 0
+substring$ -- 253
+swap$ -- 21
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 29
-width$ -- 24
-write$ -- 221
-(There were 5 warnings)
+warning$ -- 7
+while$ -- 35
+width$ -- 28
+write$ -- 262
+(There were 7 warnings)

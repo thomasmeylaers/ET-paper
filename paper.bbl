@@ -61,20 +61,40 @@ Blueheart energy.
 \bibitem{equium}
 The acoustic heat pump.
 
-\bibitem{ceperleyStirling}
-Peter~H. Ceperley.
-\newblock {A pistonless Stirling engine—The traveling wave heat engine}.
-\newblock {\em The Journal of the Acoustical Society of America}, 66(5):1508--1513, 11 1979.
+\bibitem{russell2002tabletop}
+Daniel~A Russell and Pontus Weibull.
+\newblock Tabletop thermoacoustic refrigerator for demonstrations.
+\newblock {\em American Journal of Physics}, 70(12):1231--1233, 2002.
 
-\bibitem{Herman2006}
-C.~Herman and Z.~Travnicek.
-\newblock Cool sound: the future of refrigeration? thermodynamic and heat transfer issues in thermoacoustic refrigeration.
-\newblock {\em Heat and Mass Transfer}, 42(6):492--500, Apr 2006.
+\bibitem{ZOLPAKAR2016626}
+Nor~Atiqah Zolpakar, Normah Mohd-Ghazali, and Mawahib {Hassan El-Fawal}.
+\newblock Performance analysis of the standing wave thermoacoustic refrigerator: A review.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 54:626--634, 2016.
 
 \bibitem{tijaniOptimalStack}
 M.E.H. Tijani, J~Zeegers, and Alphons De~Waele.
 \newblock The optimal stack spacing for thermoacoustic refrigeration.
 \newblock {\em The Journal of the Acoustical Society of America}, 112:128--33, 08 2002.
+
+\bibitem{en14010083}
+Jakub Kajurek and Artur Rusowicz.
+\newblock Experimental investigation on the thermoacoustic effect in easily accessible porous materials.
+\newblock {\em Energies}, 14(1), 2021.
+
+\bibitem{book}
+Greg Swift.
+\newblock {\em Thermoacoustics - A Unifying Perspective for Some Engines and Refrigerators}, volume 113.
+\newblock 01 2002.
+
+\bibitem{minner1996optimizing}
+BL~Minner, JE~Braun, and L~Mongeau.
+\newblock Optimizing the design of a thermoacoustic refrigerator.
+\newblock 1996.
+
+\bibitem{ceperleyStirling}
+Peter~H. Ceperley.
+\newblock {A pistonless Stirling engine—The traveling wave heat engine}.
+\newblock {\em The Journal of the Acoustical Society of America}, 66(5):1508--1513, 11 1979.
 
 \bibitem{TijaniAHighPerformanceThermoacousticEngine}
 M.~E.~H. Tijani and S.~Spoelstra.
